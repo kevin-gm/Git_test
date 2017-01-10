@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns:th="http;//www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>主页</title>
+
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+    </style>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div th:include="common/header:: header"></div>
+
+<div style="padding:30px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        这是一个基本的面板11123
+                    </div>
+                </div>
+
+                <!--首页博客列表-->
+                <div id="article-list">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <article class="excerpt excerpt-first">
+                                <header>
+                                    <a class="cat">ASP.NET MVC <i></i></a>
+                                    <h2 style="display: inline;font-size: 18px;">开篇</h2>
+                                </header>
+                                <p class="meta">
+                                    <span class="posttime">2016/6/28</span>
+                                    <span class="viewnum">2016/6/28</span>
+                                    <span class="commentnum">2016/6/28</span>
+                                    <span class="praisebtn">2016/6/28</span>
+                                </p>
+                                <p class="note">
+                                    开篇。本博客站基于ASP.NET MVC + EF6.0，采用Bootstrap响应式布局搭建，因此使用IE8以下的浏览器访问时可能会出现错位等一系列问题。本站定位为个人技术博客，主要用来记录工作中遇到的一些问题及其解决方案，以便日后查看，如果能无意间帮助遇到同类问题的人，那是再好不过了。mark本站虽小，但五脏俱全：MVC架构、Spring依赖注入、云存储、响应式布局(几乎适应各种屏幕尺寸的设备)、令人抓狂的一堆css、NUnit单元测试、Log4Net日志记录、Lucene站内检索、各式各样的jquery插件、自己下大功夫造了评论插件、点赞插件、分页插件，自定义Ueditor编辑器，就算是logo和icon、favicon图标也是相当地精美 做博客的过程中发现，竟然同时用到了BAT三大厂的东西。首先，服务器用的是.......
+                                </p>
+                                <footer class="entry-footer">
+                            <span class="tags-links">
+                                <a>1</a>
+                                 <a>2</a>
+                                 <a>3</a>
+                                 <a>4</a>
+                            </span>
+                                    <a class="more-link gotoArchive">继续阅读 »</a>
+                                </footer>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <article class="excerpt excerpt-first">
+                                <header>
+                                    <a class="cat">ASP.NET MVC <i></i></a>
+                                    <h2 style="display: inline;font-size: 18px;">开篇</h2>
+                                </header>
+                                <p class="meta">
+                                    <span class="posttime">2016/6/28</span>
+                                    <span class="viewnum">2016/6/28</span>
+                                    <span class="commentnum">2016/6/28</span>
+                                    <span class="praisebtn">2016/6/28</span>
+                                </p>
+                                <p class="note">
+                                    开篇。本博客站基于ASP.NET MVC + EF6.0，采用Bootstrap响应式布局搭建，因此使用IE8以下的浏览器访问时可能会出现错位等一系列问题。本站定位为个人技术博客，主要用来记录工作中遇到的一些问题及其解决方案，以便日后查看，如果能无意间帮助遇到同类问题的人，那是再好不过了。mark本站虽小，但五脏俱全：MVC架构、Spring依赖注入、云存储、响应式布局(几乎适应各种屏幕尺寸的设备)、令人抓狂的一堆css、NUnit单元测试、Log4Net日志记录、Lucene站内检索、各式各样的jquery插件、自己下大功夫造了评论插件、点赞插件、分页插件，自定义Ueditor编辑器，就算是logo和icon、favicon图标也是相当地精美 做博客的过程中发现，竟然同时用到了BAT三大厂的东西。首先，服务器用的是.......
+                                </p>
+                                <footer class="entry-footer">
+                            <span class="tags-links">
+                                <a>1</a>
+                                 <a>2</a>
+                                 <a>3</a>
+                                 <a>4</a>
+                            </span>
+                                    <a class="more-link gotoArchive">继续阅读 »</a>
+                                </footer>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <article class="excerpt excerpt-first">
+                                <header>
+                                    <a class="cat">ASP.NET MVC <i></i></a>
+                                    <h2 style="display: inline;font-size: 18px;">开篇</h2>
+                                </header>
+                                <p class="meta">
+                                    <span class="posttime">2016/6/28</span>
+                                    <span class="viewnum">2016/6/28</span>
+                                    <span class="commentnum">2016/6/28</span>
+                                    <span class="praisebtn">2016/6/28</span>
+                                </p>
+                                <p class="note">
+                                    开篇。本博客站基于ASP.NET MVC + EF6.0，采用Bootstrap响应式布局搭建，因此使用IE8以下的浏览器访问时可能会出现错位等一系列问题。本站定位为个人技术博客，主要用来记录工作中遇到的一些问题及其解决方案，以便日后查看，如果能无意间帮助遇到同类问题的人，那是再好不过了。mark本站虽小，但五脏俱全：MVC架构、Spring依赖注入、云存储、响应式布局(几乎适应各种屏幕尺寸的设备)、令人抓狂的一堆css、NUnit单元测试、Log4Net日志记录、Lucene站内检索、各式各样的jquery插件、自己下大功夫造了评论插件、点赞插件、分页插件，自定义Ueditor编辑器，就算是logo和icon、favicon图标也是相当地精美 做博客的过程中发现，竟然同时用到了BAT三大厂的东西。首先，服务器用的是.......
+                                </p>
+                                <footer class="entry-footer">
+                            <span class="tags-links">
+                                <a>1</a>
+                                 <a>2</a>
+                                 <a>3</a>
+                                 <a>4</a>
+                            </span>
+                                    <a class="more-link gotoArchive">继续阅读 »</a>
+                                </footer>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <article class="excerpt excerpt-first">
+                                <header>
+                                    <a class="cat">ASP.NET MVC <i></i></a>
+                                    <h2 style="display: inline;font-size: 18px;">开篇</h2>
+                                </header>
+                                <p class="meta">
+                                    <span class="posttime">2016/6/28</span>
+                                    <span class="viewnum">2016/6/28</span>
+                                    <span class="commentnum">2016/6/28</span>
+                                    <span class="praisebtn">2016/6/28</span>
+                                </p>
+                                <p class="note">
+                                    开篇。本博客站基于ASP.NET MVC + EF6.0，采用Bootstrap响应式布局搭建，因此使用IE8以下的浏览器访问时可能会出现错位等一系列问题。本站定位为个人技术博客，主要用来记录工作中遇到的一些问题及其解决方案，以便日后查看，如果能无意间帮助遇到同类问题的人，那是再好不过了。mark本站虽小，但五脏俱全：MVC架构、Spring依赖注入、云存储、响应式布局(几乎适应各种屏幕尺寸的设备)、令人抓狂的一堆css、NUnit单元测试、Log4Net日志记录、Lucene站内检索、各式各样的jquery插件、自己下大功夫造了评论插件、点赞插件、分页插件，自定义Ueditor编辑器，就算是logo和icon、favicon图标也是相当地精美 做博客的过程中发现，竟然同时用到了BAT三大厂的东西。首先，服务器用的是.......
+                                </p>
+                                <footer class="entry-footer">
+                            <span class="tags-links">
+                                <a>1</a>
+                                 <a>2</a>
+                                 <a>3</a>
+                                 <a>4</a>
+                            </span>
+                                    <a class="more-link gotoArchive">继续阅读 »</a>
+                                </footer>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div th:include="common/right_aside:: right_aside" class="col-md-4"></div>
+        </div>
+    </div>
+</div>
+
+
+<!--页脚版权声明-->
+
+<div th:replace="common/footer:: footer"></div>
+
+<!--回到顶部-->
+<!--<div class="rollbar" style="display: block;">
+    <ul>
+        <li>
+            <a href="/">
+                <img  width="64" height="64" src="http://img05.tooopen.com/images/20140919/sy_71272488121.jpg" />
+            </a>
+        </li>
+    </ul>
+</div>-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

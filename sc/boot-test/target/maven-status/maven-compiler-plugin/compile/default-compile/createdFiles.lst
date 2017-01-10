@@ -1,0 +1,2 @@
+com\kevin\boot\security\CustomUserDetailService.class
+com\kevin\boot\config\WebSecurityConfig.class

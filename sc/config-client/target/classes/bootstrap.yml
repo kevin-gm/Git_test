@@ -1,0 +1,11 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: kevinconfig
+  cloud:
+    config:
+      profile: prod
+      label: master
+      uri: http://localhost:7001
+      fail-fast: true
